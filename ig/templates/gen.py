@@ -18,20 +18,20 @@ P=[
 for a in P: post(*a)
 pill='<div class=pill>Link na bio</div>'
 S=[ # enquetes manha, meio, noite for days 2..7
-('s04','Enquete','Você aparece<br>no <span class=g>Google</span><br>quando buscam<br>seu serviço?','Vota aí embaixo. A gente conta o resultado.','Responde no <b>sticker</b>',''),
-('s05','Caixinha','Qual é o<br>seu <span class=g>tipo de<br>negócio?</span>','Conta aqui. A gente diz por onde começar.','Manda na <b>caixinha</b>',''),
+('s04','Enquete','Você aparece<br>no <span class=g>Google</span><br>quando buscam<br>seu serviço?','Manda <b>SIM</b> ou <b>NÃO</b> no direct.','Responde no <b>direct</b> ↓',''),
+('s05','Caixinha','Qual é o<br>seu <span class=g>tipo de<br>negócio?</span>','Manda no direct. A gente responde.','Responde no <b>direct</b> ↓',''),
 ('s06','Fala com a gente','Tecnologia e<br>marketing<br><span class=g>num lugar só.</span>','Site, sistema, logo, tráfego e redes sociais.','Acesse o <b>link na bio</b>',pill),
-('s07','Enquete','Seu cliente<br>fala mais no<br><span class=g>Instagram</span><br>ou WhatsApp?','Vota aí embaixo.','Responde no <b>sticker</b>',''),
-('s08','Caixinha','O que mais<br><span class=g>toma seu<br>tempo</span> no dia<br>a dia?','Responde aqui. A gente lê tudo.','Manda na <b>caixinha</b>',''),
+('s07','Enquete','Seu cliente<br>fala mais no<br><span class=g>Instagram</span><br>ou WhatsApp?','Manda a resposta no direct.','Responde no <b>direct</b> ↓',''),
+('s08','Caixinha','O que mais<br><span class=g>toma seu<br>tempo</span> no dia<br>a dia?','Manda no direct. A gente lê tudo.','Responde no <b>direct</b> ↓',''),
 ('s09','Fala com a gente','Do site ao<br><span class=g>tráfego pago:</span><br>a gente cuida.','Você cuida do seu negócio.','Acesse o <b>link na bio</b>',pill),
-('s10','Enquete','Você já perdeu<br>cliente por<br><span class=g>demorar</span><br>a responder?','Vota aí embaixo.','Responde no <b>sticker</b>',''),
-('s11','Caixinha','Qual pergunta<br>seus clientes<br><span class=g>sempre fazem?</span>','Manda aqui. Vira conteúdo.','Manda na <b>caixinha</b>',''),
+('s10','Enquete','Você já perdeu<br>cliente por<br><span class=g>demorar</span><br>a responder?','Manda a resposta no direct.','Responde no <b>direct</b> ↓',''),
+('s11','Caixinha','Qual pergunta<br>seus clientes<br><span class=g>sempre fazem?</span>','Manda no direct. Pode virar conteúdo.','Responde no <b>direct</b> ↓',''),
 ('s12','Fala com a gente','Seu negócio no<br><span class=g>topo do Google</span><br>começa aqui.','Chama a gente e conta sua dor.','Acesse o <b>link na bio</b>',pill),
-('s13','Enquete','Sua logo é<br><span class=g>profissional?</span>','Vota aí embaixo.','Responde no <b>sticker</b>',''),
-('s14','Caixinha','Se pudesse<br><span class=g>automatizar<br>uma coisa,</span><br>qual seria?','Responde aqui embaixo.','Manda na <b>caixinha</b>',''),
+('s13','Enquete','Sua logo é<br><span class=g>profissional?</span>','Manda a resposta no direct.','Responde no <b>direct</b> ↓',''),
+('s14','Caixinha','Se pudesse<br><span class=g>automatizar<br>uma coisa,</span><br>qual seria?','Manda no direct.','Responde no <b>direct</b> ↓',''),
 ('s15','Fala com a gente','Logo, site<br>e redes:<br><span class=g>tudo com a<br>Allure.</span>','Um só parceiro para o seu negócio crescer.','Acesse o <b>link na bio</b>',pill),
-('s16','Enquete','Você investe<br>em <span class=g>anúncios</span><br>hoje?','Vota aí embaixo.','Responde no <b>sticker</b>',''),
-('s17','Caixinha','O que te<br>impede de<br><span class=g>ter um site?</span>','Responde aqui. Sem julgamento.','Manda na <b>caixinha</b>',''),
+('s16','Enquete','Você investe<br>em <span class=g>anúncios</span><br>hoje?','Manda a resposta no direct.','Responde no <b>direct</b> ↓',''),
+('s17','Caixinha','O que te<br>impede de<br><span class=g>ter um site?</span>','Manda no direct. Sem julgamento.','Responde no <b>direct</b> ↓',''),
 ('s18','Fala com a gente','Pronto pra<br><span class=g>aparecer?</span>','A gente cuida da parte técnica.','Acesse o <b>link na bio</b>',pill),
 ]
 for a in S: story(*a)
