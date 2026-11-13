@@ -1,0 +1,12 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#050c0c;font-family:Inter,sans-serif;color:#eafff6;position:relative;overflow:hidden}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(1,210,138,.10) 2px,transparent 2px),linear-gradient(90deg,rgba(1,210,138,.10) 2px,transparent 2px);background-size:90px 90px;background-position:45px 45px;-webkit-mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 30%,transparent 100%);mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 30%,transparent 100%)}
+.glow{position:absolute;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(1,210,138,.22),transparent 65%);right:-300px;top:-300px}
+.glow2{position:absolute;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(4,176,159,.14),transparent 65%);left:-300px;bottom:-250px}
+.top{position:absolute;left:80px;right:80px;top:72px;display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:18px;font-weight:800;font-size:34px;letter-spacing:-.01em}
+.brand img{height:50px}
+.tag{font-size:22px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#01d28a;border:2px solid rgba(1,210,138,.5);padding:10px 20px;border-radius:99px;background:rgba(1,210,138,.08)}
+.foot{position:absolute;left:80px;right:80px;bottom:64px;display:flex;justify-content:space-between;align-items:center;font-size:28px;font-weight:600;color:#8fb8ab}
+.foot b{color:#01d28a}
+.g{background:linear-gradient(90deg,#01d28a,#04b09f);-webkit-background-clip:text;background-clip:text;color:transparent}
